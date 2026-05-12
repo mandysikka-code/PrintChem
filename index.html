@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Print Chemistry – Print Services</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+<!-- ===== TOP ANNOUNCEMENT BAR ===== -->
+<div class="announcement-bar">
+  <span><i class="fas fa-bolt"></i> Express Delivery Available &nbsp;|&nbsp; <i class="fas fa-phone"></i> Call Us: +91 87552 53636 &nbsp;|&nbsp; <i class="fas fa-envelope"></i> hello@printchemistry.in</span>
+</div>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar" id="navbar">
+  <div class="nav-container">
+    <!-- LOGO -->
+    <a href="#" class="logo">
+      <div class="logo-icon">
+        <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="bg1" x1="0" y1="0" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#1a1a2e"/>
+              <stop offset="100%" stop-color="#0f3460"/>
+            </linearGradient>
+            <linearGradient id="red1" x1="0" y1="0" x2="52" y2="0" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#e94560"/>
+              <stop offset="100%" stop-color="#ff6b8a"/>
+            </linearGradient>
+            <linearGradient id="paper1" x1="0" y1="0" x2="0" y2="30" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#ffffff"/>
+              <stop offset="100%" stop-color="#f0f4ff"/>
+            </linearGradient>
+          </defs>
+          <!-- Rounded background tile -->
+          <rect width="52" height="52" rx="13" fill="url(#bg1)"/>
+          <!-- Subtle inner glow border -->
+          <rect x="1" y="1" width="50" height="50" rx="12.5" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="1.2"/>
+
+          <!-- === PRINT ROLLER === -->
+          <!-- Roller body -->
+          <rect x="8" y="11" width="36" height="8" rx="4" fill="url(#red1)"/>
+          <!-- Roller left cap -->
+          <rect x="6" y="12.5" width="4" height="5" rx="2" fill="#c0392b"/>
+          <!-- Roller right cap -->
+          <rect x="42" y="12.5" width="4" height="5" rx="2" fill="#c0392b"/>
+          <!-- Roller shine -->
+          <rect x="10" y="12.5" width="20" height="2" rx="1" fill="rgba(255,255,255,0.25)"/>
+
+          <!-- === PAPER SHEET === -->
+          <rect x="13" y="19" width="26" height="24" rx="2.5" fill="url(#paper1)"/>
+          <!-- Printed red headline bar -->
+          <rect x="16" y="23" width="20" height="3" rx="1.5" fill="#e94560"/>
+          <!-- Body text lines -->
+          <rect x="16" y="28.5" width="16" height="2" rx="1" fill="#c5cce8" opacity="0.9"/>
+          <rect x="16" y="32" width="20" height="2" rx="1" fill="#c5cce8" opacity="0.7"/>
+          <rect x="16" y="35.5" width="13" height="2" rx="1" fill="#c5cce8" opacity="0.6"/>
+
+          <!-- === INK DROP === -->
+          <!-- Drop shadow -->
+          <ellipse cx="26" cy="47.5" rx="5" ry="1.5" fill="rgba(0,0,0,0.25)"/>
+          <!-- Drop shape -->
+          <path d="M26 42 C26 42 22 46.5 22 48.5 C22 50.4 23.8 52 26 52 C28.2 52 30 50.4 30 48.5 C30 46.5 26 42 26 42Z" fill="url(#red1)"/>
+          <!-- Shine -->
+          <ellipse cx="24.4" cy="47.5" rx="1" ry="1.5" fill="rgba(255,255,255,0.45)" transform="rotate(-20 24.4 47.5)"/>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <span class="logo-main">Print<span class="logo-accent">Chemistry</span></span>
+        <span class="logo-tagline">Precision. Quality. Delivered.</span>
+      </div>
+    </a>
+
+    <!-- NAV LINKS -->
+    <nav class="nav-links" id="navLinks">
+      <a href="#services">Services</a>
+      <a href="#categories">Products</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact" class="nav-cta">Get Quote</a>
+    </nav>
+    <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+  </div>
+</header>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="hero" id="home">
+  <div class="hero-bg-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge"><i class="fas fa-star"></i> Trusted by 500+ Businesses</div>
+    <h1>Your Ideas, <span class="gradient-text">Printed to Perfection</span></h1>
+    <p>From business stationery to export-grade packaging, barcodes, photo slips and more — Print Chemistry delivers precision at every step.</p>
+    <div class="hero-btns">
+      <a href="#services" class="btn btn-primary"><i class="fas fa-print"></i> Explore Services</a>
+      <a href="#contact" class="btn btn-outline">Get a Free Quote</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Clients Served</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">50K+</span><span class="stat-label">Orders Completed</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Years Experience</span></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-card-stack">
+      <div class="hcard hcard-1">
+        <div class="hcard-icon"><i class="fas fa-file-alt"></i></div>
+        <div class="hcard-info"><strong>Business Stationery</strong><span>Cards, Letterheads & More</span></div>
+      </div>
+      <div class="hcard hcard-2">
+        <div class="hcard-icon"><i class="fas fa-barcode"></i></div>
+        <div class="hcard-info"><strong>Barcodes & Labels</strong><span>QR, EAN, GS1 Certified</span></div>
+      </div>
+      <div class="hcard hcard-3">
+        <div class="hcard-icon"><i class="fas fa-image"></i></div>
+        <div class="hcard-info"><strong>Photo Slips</strong><span>Hi-Res Photo Printing</span></div>
+      </div>
+      <div class="hcard hcard-4">
+        <div class="hcard-icon"><i class="fas fa-box"></i></div>
+        <div class="hcard-info"><strong>Export Packaging</strong><span>Global-Standard Print</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRUST LOGOS ===== -->
+<section class="trust-bar">
+  <p class="trust-label">Trusted by leading businesses</p>
+  <div class="trust-logos">
+    <div class="trust-logo"><i class="fas fa-building"></i> TechCorp</div>
+    <div class="trust-logo"><i class="fas fa-store"></i> RetailHub</div>
+    <div class="trust-logo"><i class="fas fa-industry"></i> ExportEdge</div>
+    <div class="trust-logo"><i class="fas fa-briefcase"></i> BizPro</div>
+    <div class="trust-logo"><i class="fas fa-globe"></i> GlobalMart</div>
+    <div class="trust-logo"><i class="fas fa-hospital"></i> MedPrint</div>
+  </div>
+</section>
+
+<!-- ===== SERVICES / POPULAR CATEGORIES ===== -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-badge">What We Offer</div>
+      <h2>Our Core <span class="gradient-text">Print Services</span></h2>
+      <p>Everything you need — printed beautifully, delivered fast.</p>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card" data-aos="fade-up">
+        <div class="service-icon-wrap" style="--clr:#e94560">
+          <i class="fas fa-file-invoice"></i>
+        </div>
+        <h3>Print Stationery</h3>
+        <p>Business cards, letterheads, envelopes, notepads, stamps and complete corporate identity kits — all precision-printed.</p>
+        <ul class="service-list">
+          <li><i class="fas fa-check"></i> Business Cards & Visiting Cards</li>
+          <li><i class="fas fa-check"></i> Letterheads & Envelopes</li>
+          <li><i class="fas fa-check"></i> Notepads & Diaries</li>
+          <li><i class="fas fa-check"></i> Rubber Stamps & ID Cards</li>
+        </ul>
+        <a href="#contact" class="service-link">Order Now <i class="fas fa-arrow-right"></i></a>
+      </div>
+
+      <div class="service-card featured-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="featured-badge"><i class="fas fa-fire"></i> Most Popular</div>
+        <div class="service-icon-wrap" style="--clr:#f5a623">
+          <i class="fas fa-image"></i>
+        </div>
+        <h3>Photo Slips</h3>
+        <p>High-resolution photo printing on premium quality paper. Perfect for ID photos, product images, and marketing collateral.</p>
+        <ul class="service-list">
+          <li><i class="fas fa-check"></i> Passport & ID Photo Prints</li>
+          <li><i class="fas fa-check"></i> Product Photo Slips</li>
+          <li><i class="fas fa-check"></i> Event Photo Printing</li>
+          <li><i class="fas fa-check"></i> Bulk Photo Orders</li>
+        </ul>
+        <a href="#contact" class="service-link">Order Now <i class="fas fa-arrow-right"></i></a>
+      </div>
+
+      <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-icon-wrap" style="--clr:#00b4d8">
+          <i class="fas fa-barcode"></i>
+        </div>
+        <h3>Barcodes & Labels</h3>
+        <p>GS1-compliant barcodes, QR codes and custom labels for retail, export and inventory management.</p>
+        <ul class="service-list">
+          <li><i class="fas fa-check"></i> EAN / UPC Barcodes</li>
+          <li><i class="fas fa-check"></i> QR Code Printing</li>
+          <li><i class="fas fa-check"></i> Product & Price Labels</li>
+          <li><i class="fas fa-check"></i> Shipping & Logistics Labels</li>
+        </ul>
+        <a href="#contact" class="service-link">Order Now <i class="fas fa-arrow-right"></i></a>
+      </div>
+
+      <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-icon-wrap" style="--clr:#06d6a0">
+          <i class="fas fa-globe"></i>
+        </div>
+        <h3>Export Goods Print</h3>
+        <p>International-standard packaging, labels, and print materials designed to meet global export compliance and branding requirements.</p>
+        <ul class="service-list">
+          <li><i class="fas fa-check"></i> Export Packaging Boxes</li>
+          <li><i class="fas fa-check"></i> Compliance Labels & Tags</li>
+          <li><i class="fas fa-check"></i> Multilingual Print Materials</li>
+          <li><i class="fas fa-check"></i> Certificate of Origin Print</li>
+        </ul>
+        <a href="#contact" class="service-link">Order Now <i class="fas fa-arrow-right"></i></a>
+      </div>
+
+      <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-icon-wrap" style="--clr:#7b2d8b">
+          <i class="fas fa-flag"></i>
+        </div>
+        <h3>Marketing & Signage</h3>
+        <p>Eye-catching banners, posters, flyers, brochures and signage to boost your brand's visibility.</p>
+        <ul class="service-list">
+          <li><i class="fas fa-check"></i> Roll-Up Banners & Standees</li>
+          <li><i class="fas fa-check"></i> Posters & Flyers</li>
+          <li><i class="fas fa-check"></i> Brochures & Catalogues</li>
+          <li><i class="fas fa-check"></i> Vehicle Wraps & Decals</li>
+        </ul>
+        <a href="#contact" class="service-link">Order Now <i class="fas fa-arrow-right"></i></a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== SHOP BY CATEGORY ===== -->
+<section class="categories" id="categories">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-badge">Browse</div>
+      <h2>Shop By <span class="gradient-text">Category</span></h2>
+      <p>Find exactly what your business needs.</p>
+    </div>
+    <div class="cat-grid">
+      <div class="cat-card" style="--card-clr:#e94560">
+        <div class="cat-icon"><i class="fas fa-address-card"></i></div>
+        <h4>Business Cards</h4>
+        <span class="cat-count">12 Products</span>
+      </div>
+      <div class="cat-card" style="--card-clr:#f5a623">
+        <div class="cat-icon"><i class="fas fa-camera"></i></div>
+        <h4>Photo Prints</h4>
+        <span class="cat-count">8 Products</span>
+      </div>
+      <div class="cat-card" style="--card-clr:#00b4d8">
+        <div class="cat-icon"><i class="fas fa-qrcode"></i></div>
+        <h4>Barcodes & QR</h4>
+        <span class="cat-count">6 Products</span>
+      </div>
+      <div class="cat-card" style="--card-clr:#06d6a0">
+        <div class="cat-icon"><i class="fas fa-box-open"></i></div>
+        <h4>Packaging</h4>
+        <span class="cat-count">15 Products</span>
+      </div>
+      <div class="cat-card" style="--card-clr:#7b2d8b">
+        <div class="cat-icon"><i class="fas fa-scroll"></i></div>
+        <h4>Banners & Posters</h4>
+        <span class="cat-count">10 Products</span>
+      </div>
+      <div class="cat-card" style="--card-clr:#ff6b6b">
+        <div class="cat-icon"><i class="fas fa-book"></i></div>
+        <h4>Booklets & Catalogues</h4>
+        <span class="cat-count">9 Products</span>
+      </div>
+      <div class="cat-card" style="--card-clr:#1a936f">
+        <div class="cat-icon"><i class="fas fa-tag"></i></div>
+        <h4>Labels & Stickers</h4>
+        <span class="cat-count">14 Products</span>
+      </div>
+      <div class="cat-card" style="--card-clr:#3a86ff">
+        <div class="cat-icon"><i class="fas fa-id-badge"></i></div>
+        <h4>ID Cards & Badges</h4>
+        <span class="cat-count">5 Products</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HOW IT WORKS ===== -->
+<section class="how-it-works">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-badge">Simple Process</div>
+      <h2>How It <span class="gradient-text">Works</span></h2>
+      <p>Order your prints in 4 easy steps.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-num">01</div>
+        <div class="step-icon"><i class="fas fa-mouse-pointer"></i></div>
+        <h4>Choose Product</h4>
+        <p>Browse our wide range of print products and select what fits your needs.</p>
+      </div>
+      <div class="step-arrow"><i class="fas fa-chevron-right"></i></div>
+      <div class="step-card">
+        <div class="step-num">02</div>
+        <div class="step-icon"><i class="fas fa-paint-brush"></i></div>
+        <h4>Upload Design</h4>
+        <p>Upload your artwork or let our in-house design team create it for you.</p>
+      </div>
+      <div class="step-arrow"><i class="fas fa-chevron-right"></i></div>
+      <div class="step-card">
+        <div class="step-num">03</div>
+        <div class="step-icon"><i class="fas fa-print"></i></div>
+        <h4>We Print</h4>
+        <p>Your order goes through our quality-checked printing process with precision.</p>
+      </div>
+      <div class="step-arrow"><i class="fas fa-chevron-right"></i></div>
+      <div class="step-card">
+        <div class="step-num">04</div>
+        <div class="step-icon"><i class="fas fa-truck"></i></div>
+        <h4>Fast Delivery</h4>
+        <p>Receive your prints at your doorstep — on time, every time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY US ===== -->
+<section class="why-us" id="why-us">
+  <div class="container why-us-inner">
+    <div class="why-us-left">
+      <div class="section-badge">Why Choose Us</div>
+      <h2>The Print Chemistry <span class="gradient-text">Difference</span></h2>
+      <p>We're not just another print shop. We are a full-service partner dedicated to delivering excellence at every stage of your print journey.</p>
+      <div class="why-features">
+        <div class="why-feature">
+          <div class="why-icon"><i class="fas fa-medal"></i></div>
+          <div>
+            <h4>Premium Quality</h4>
+            <p>We use top-grade materials and precision machinery for every order.</p>
+          </div>
+        </div>
+        <div class="why-feature">
+          <div class="why-icon"><i class="fas fa-bolt"></i></div>
+          <div>
+            <h4>Express Turnaround</h4>
+            <p>Same-day and next-day delivery options for urgent requirements.</p>
+          </div>
+        </div>
+        <div class="why-feature">
+          <div class="why-icon"><i class="fas fa-wallet"></i></div>
+          <div>
+            <h4>Competitive Pricing</h4>
+            <p>Best-in-market pricing with bulk discounts for large orders.</p>
+          </div>
+        </div>
+        <div class="why-feature">
+          <div class="why-icon"><i class="fas fa-headset"></i></div>
+          <div>
+            <h4>Dedicated Support</h4>
+            <p>Expert consultants available to guide you from order to delivery.</p>
+          </div>
+        </div>
+        <div class="why-feature">
+          <div class="why-icon"><i class="fas fa-leaf"></i></div>
+          <div>
+            <h4>Eco-Friendly Options</h4>
+            <p>Sustainable paper, soy-based inks and green packaging available.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="why-us-right">
+      <div class="stats-box">
+        <div class="big-stat">
+          <span class="big-num">10<span class="plus">+</span></span>
+          <span class="big-label">Years in Business</span>
+        </div>
+        <div class="stats-grid-small">
+          <div class="small-stat">
+            <span>500<sup>+</sup></span>
+            <p>Happy Clients</p>
+          </div>
+          <div class="small-stat">
+            <span>50K<sup>+</sup></span>
+            <p>Orders Printed</p>
+          </div>
+          <div class="small-stat">
+            <span>99<sup>%</sup></span>
+            <p>On-time Delivery</p>
+          </div>
+          <div class="small-stat">
+            <span>24/7</span>
+            <p>Support</p>
+          </div>
+        </div>
+        <div class="cert-badges">
+          <div class="cert"><i class="fas fa-certificate"></i> ISO Certified</div>
+          <div class="cert"><i class="fas fa-shield-alt"></i> GS1 Compliant</div>
+          <div class="cert"><i class="fas fa-check-circle"></i> Quality Assured</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-badge">Reviews</div>
+      <h2>What Our <span class="gradient-text">Clients Say</span></h2>
+      <p>Real feedback from real businesses who trust Print Chemistry.</p>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p>"Print Chemistry delivered our export packaging labels on time and the quality exceeded our expectations. Their barcode printing is spot on — GS1 compliant and perfect for our international shipments."</p>
+        <div class="testi-author">
+          <div class="author-avatar" style="background:#e94560">RK</div>
+          <div>
+            <strong>Rajiv Kumar</strong>
+            <span>Export Manager, GlobalEdge Pvt. Ltd.</span>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card featured-testi">
+        <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p>"We've been using Print Chemistry for all our corporate stationery — business cards, letterheads, notepads — for over 3 years. Consistent quality, great turnaround and very competitive pricing. Highly recommended!"</p>
+        <div class="testi-author">
+          <div class="author-avatar" style="background:#7b2d8b">SP</div>
+          <div>
+            <strong>Sunita Patel</strong>
+            <span>Operations Head, BizCore Solutions</span>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+        <p>"The staffing team at Print Chemistry found us three excellent machine operators within a week. They understood our requirements perfectly and placed the right candidates. Will definitely work with them again."</p>
+        <div class="testi-author">
+          <div class="author-avatar" style="background:#00b4d8">AM</div>
+          <div>
+            <strong>Amit Mehta</strong>
+            <span>Production Director, PrintWave Industries</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-badge">Got Questions?</div>
+      <h2>Frequently Asked <span class="gradient-text">Questions</span></h2>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span>What print services does Print Chemistry offer?</span>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="faq-a">
+          We offer a comprehensive range of print services including business stationery, photo slips, barcode & label printing, export goods printing, marketing materials, banners, signage, packaging and much more.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span>Do you provide same-day or express printing?</span>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="faq-a">
+          Yes! We offer express and same-day printing for select products. Contact us directly for urgent orders and we'll prioritize your requirement.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span>Are your barcodes GS1 / export compliant?</span>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="faq-a">
+          Absolutely. All our barcode products are GS1-compliant and suitable for both domestic retail and international export requirements including EAN-13, EAN-8, UPC-A and QR codes.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span>Can you handle bulk / large-volume orders?</span>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="faq-a">
+          Yes, we specialise in bulk printing and offer volume-based discounts. Whether you need 100 business cards or 100,000 export labels, we have the capacity and technology to deliver.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span>Do you offer design services?</span>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="faq-a">
+          Yes! Our in-house design team can create print-ready artwork for you. Simply brief us on your brand, and we'll create professional designs tailored to your requirements.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="cta-banner">
+  <div class="container">
+    <div class="cta-content">
+      <h2>Ready to Print Something <span class="gradient-text">Amazing?</span></h2>
+      <p>Get a free quote in minutes. No hidden charges. No minimum order quantity.</p>
+      <a href="#contact" class="btn btn-white"><i class="fas fa-rocket"></i> Get Started Today</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-badge">Reach Us</div>
+      <h2>Get In <span class="gradient-text">Touch</span></h2>
+      <p>Let's discuss your print or staffing requirements. We respond within 24 hours.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Contact Details</h3>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+          <div>
+            <strong>Phone / WhatsApp</strong>
+            <span>+91 87552 53636</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <strong>Email</strong>
+            <span>hello@printchemistry.in</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <strong>Address</strong>
+            <span>51, West Arjun Nagar, Agra</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-clock"></i></div>
+          <div>
+            <strong>Working Hours</strong>
+            <span>Mon – Sat: 9:00 AM – 7:00 PM</span>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-link" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <h3>Send Us a Message</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name *</label>
+            <input type="text" placeholder="e.g. Mandeep Sikka" required />
+          </div>
+          <div class="form-group">
+            <label>Company Name</label>
+            <input type="text" placeholder="e.g. ABC Corp" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Phone / WhatsApp *</label>
+            <input type="tel" placeholder="+91 XXXXX XXXXX" required />
+          </div>
+          <div class="form-group">
+            <label>Email Address *</label>
+            <input type="email" placeholder="you@company.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Service Required *</label>
+          <select required>
+            <option value="">-- Select Service --</option>
+            <option>Print Stationery</option>
+            <option>Photo Slips</option>
+            <option>Barcodes & Labels</option>
+            <option>Export Goods Print</option>
+            <option>Marketing & Signage</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Message / Requirements</label>
+          <textarea rows="4" placeholder="Describe your print requirement in detail..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-paper-plane"></i> Send Message</button>
+        <div class="form-success" id="formSuccess"><i class="fas fa-check-circle"></i> Thank you! We'll get back to you within 24 hours.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <svg width="44" height="44" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="fbg" x1="0" y1="0" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#e94560"/>
+                <stop offset="100%" stop-color="#c0392b"/>
+              </linearGradient>
+              <linearGradient id="fred" x1="0" y1="0" x2="52" y2="0" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+                <stop offset="100%" stop-color="#ffd0d9"/>
+              </linearGradient>
+            </defs>
+            <rect width="52" height="52" rx="13" fill="url(#fbg)"/>
+            <rect x="1" y="1" width="50" height="50" rx="12.5" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.2"/>
+            <!-- Roller -->
+            <rect x="8" y="11" width="36" height="8" rx="4" fill="url(#fred)"/>
+            <rect x="6" y="12.5" width="4" height="5" rx="2" fill="rgba(255,255,255,0.6)"/>
+            <rect x="42" y="12.5" width="4" height="5" rx="2" fill="rgba(255,255,255,0.6)"/>
+            <rect x="10" y="12.5" width="20" height="2" rx="1" fill="rgba(255,255,255,0.3)"/>
+            <!-- Paper -->
+            <rect x="13" y="19" width="26" height="24" rx="2.5" fill="rgba(255,255,255,0.12)"/>
+            <rect x="16" y="23" width="20" height="3" rx="1.5" fill="rgba(255,255,255,0.9)"/>
+            <rect x="16" y="28.5" width="16" height="2" rx="1" fill="rgba(255,255,255,0.5)"/>
+            <rect x="16" y="32" width="20" height="2" rx="1" fill="rgba(255,255,255,0.4)"/>
+            <rect x="16" y="35.5" width="12" height="2" rx="1" fill="rgba(255,255,255,0.35)"/>
+            <!-- Drop -->
+            <ellipse cx="26" cy="47.5" rx="5" ry="1.5" fill="rgba(0,0,0,0.2)"/>
+            <path d="M26 42 C26 42 22 46.5 22 48.5 C22 50.4 23.8 52 26 52 C28.2 52 30 50.4 30 48.5 C30 46.5 26 42 26 42Z" fill="rgba(255,255,255,0.9)"/>
+            <ellipse cx="24.4" cy="47.5" rx="1" ry="1.5" fill="rgba(233,69,96,0.5)" transform="rotate(-20 24.4 47.5)"/>
+          </svg>
+          <span>Print<strong>Chemistry</strong></span>
+        </div>
+        <p>Your complete partner for precision printing, export goods labels, barcodes, photo slips and stationery. Quality guaranteed, every order.</p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Print Services</h4>
+        <ul>
+          <li><a href="#">Business Stationery</a></li>
+          <li><a href="#">Photo Slips</a></li>
+          <li><a href="#">Barcodes & Labels</a></li>
+          <li><a href="#">Export Print Items</a></li>
+          <li><a href="#">Banners & Signage</a></li>
+          <li><a href="#">Packaging</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Print Chemistry. All rights reserved. | Designed with <i class="fas fa-heart" style="color:#e94560"></i> for precision.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/918755253636?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20PrintChemistry%20Services" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Back to top -->
+<button class="back-to-top" id="backToTop" onclick="scrollToTop()"><i class="fas fa-chevron-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
